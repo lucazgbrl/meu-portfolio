@@ -1,13 +1,33 @@
-img {
-    border-radius: 50%; 
-    max-width: 180px; 
-    max-height: 180px;
-
+body {
+    background-color: rgb(226, 218, 218);
 }
-.profile {
-    display: flex;
-    padding-bottom: 30px;
+h1 {
+    font-size: 45px;
+    border-style: solid;
+    border-color: gray;
+    box-shadow: 4px 2px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+h2, h3 {
+    font-size: 25px;
+}
+.profile-photo {
+    border-radius: 50%;
+    height: 250px;
+}
+.profile, .main {
+    display: flex;  
+    vertical-align: top;
+    align-items: start;
+}
+.whoami {
+    width: 350px;
+    margin: 20px;
 }
 .links {
     border-top: 50px;
+    text-align: center;
+}
+.skills, .contact {
+    margin: 20px;
 }
